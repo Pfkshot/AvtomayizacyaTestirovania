@@ -21,10 +21,11 @@ public class FiveDaysTest extends  AccuweatherAbstractTest {
         Assertions.assertEquals(5,weather.getDailyForecasts().size());
     }
 
+    @Test
     void test5DaysMoscow(){
         Weather weather = given().queryParam("apikey", getApiKey())
                 .when()
-//                .get(getBaseUrl() + "/forecasts/v1/daily/5day/290396")
+                .get(getBaseUrl() + "/forecasts/v1/daily/5day/294021")
                 .then()
                 .statusCode(200)
                 .extract()
@@ -33,10 +34,24 @@ public class FiveDaysTest extends  AccuweatherAbstractTest {
         Assertions.assertEquals(5,weather.getDailyForecasts().size());
     }
 
-    void test5DaysSaint Petersburg(){
+    @Test
+    void test5DaysSaintPetersburg(){
         Weather weather = given().queryParam("apikey", getApiKey())
                 .when()
-//                .get(getBaseUrl() + "/forecasts/v1/daily/5day/290396")
+                .get(getBaseUrl() + "/forecasts/v1/daily/5day/295212")
+                .then()
+                .statusCode(200)
+                .extract()
+                .body().as(Weather.class);
+
+        Assertions.assertEquals(5,weather.getDailyForecasts().size());
+    }
+
+    @Test
+    void test5DaysKazan(){
+        Weather weather = given().queryParam("apikey", getApiKey())
+                .when()
+                .get(getBaseUrl() + "/forecasts/v1/daily/5day/295954")
                 .then()
                 .statusCode(200)
                 .extract()
