@@ -1,7 +1,7 @@
 package org.igor.home;
 
-import jakarta.persistence.metamodel.EntityType;
-import jakarta.persistence.metamodel.Metamodel;
+import jakarta.persistence.metamodel.EntityType; //import javax.persistence.metamodel.EntityType;
+import jakarta.persistence.metamodel.Metamodel; //import org.hibernate.Metamodel;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
