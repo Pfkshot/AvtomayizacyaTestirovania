@@ -1,6 +1,6 @@
 package org.igor.seminar;
 
-import jakarta.persistence.metamodel.EntityType;
+import jakarta.persistence.metamodel.EntityType; //import javax.persistence.metamodel.EntityType;
 import org.hibernate.HibernateException;
 import org.hibernate.Metamodel;
 import org.hibernate.Session;
