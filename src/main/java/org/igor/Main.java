@@ -1,4 +1,4 @@
-package org.igor.DZ;
+package org.igor;
 
 public class Main {
     public void main(String[] args){
