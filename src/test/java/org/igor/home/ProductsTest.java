@@ -18,6 +18,7 @@ public class ProductsTest extends AbstractTest{
     @CsvSource({"GOJIRA ROLL", "FUTOMAKI", "SASHIMI SALAD"})
     void getProductById(String menuName) throws SQLException{
         //given
+        //тут наверно таблица products должна быть, а не customers
         String sql = "SELECT * FROM customers WHERE menu_name='" + menuName + "'";
         Statement stmt  = getConnection().createStatement();
         String menuNameString = "";
