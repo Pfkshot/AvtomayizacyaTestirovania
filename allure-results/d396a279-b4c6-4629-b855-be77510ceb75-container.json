@@ -1,0 +1,1 @@
+{"uuid":"d396a279-b4c6-4629-b855-be77510ceb75","name":"Тест getTenDaysKazan_shouldReturn401 (негативный) - запрос прогноза погоды на 5 дней в городе Казань","children":["7d335eec-31db-47c0-9e7e-7a40029cd811"],"befores":[],"afters":[],"start":1722723060359,"stop":1722723060613}

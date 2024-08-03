@@ -1,0 +1,1 @@
+{"uuid":"50da87a7-9e55-4c8d-b08b-8761ce09be8e","name":"Тест getTenDaysMoscow_shouldReturn401 (негативный) - запрос прогноза погоды на 10 дней в городе Москва","children":["eabf4025-8452-4e01-aadc-1615f33407bf"],"befores":[],"afters":[],"start":1722723061269,"stop":1722723062045}
